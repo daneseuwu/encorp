@@ -27,7 +27,7 @@ const Page = () => {
 
             <h3 className='text-xl font-bold mb-4'>Integrantes</h3>
 
-            <div className='space-y-3'>
+            <div className='space-y-3 border border-gray-200 p-2'>
                 {integrantes.map((int, index) => (
                     <div key={index} className='flex gap-6 text-xl font-sans'>
                         <span>{int.apellido}</span>
